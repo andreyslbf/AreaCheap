@@ -1,0 +1,110 @@
+/* Estilos gerais */
+*{
+  text-decoration: none;
+}
+
+a{
+font-weight: bold;
+color: black;
+}
+
+button {
+  background-color: aquamarine;
+  padding: 8px 16px;
+  border: 1px solid black;
+  border-radius: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: aqua;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+
+/* Cabeçalho */
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 5%;
+}
+
+#logo{
+  margin: 3%;
+  width: 45%;
+  height: auto;
+}
+
+header > a{
+  text-decoration: none;
+}
+
+/* Barra de navegação */
+nav{
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+}
+
+/* Cards de listagem */
+.listing-card {
+
+    background-color: #fdfdfd;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    padding-top: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 24px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+    margin-top: 1%;
+    text-decoration: none;
+}
+
+.listing-card  img{
+  width: 350px;
+  height: 300px;
+  border-radius: 5%;
+  margin-top: 3%;
+  text-decoration: none;
+}
+
+.listing-card > div{
+  margin-left: -40%;
+  text-decoration: none;
+}
+#but{
+
+  display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+/* Rodapé */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+ 
+}
+#pfooter{
+text-align: left;
+padding-top: 2%;
+padding-bottom: 5%;
+
+}
